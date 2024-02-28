@@ -39,7 +39,7 @@ const TarotCard = ({ frontImg, backImg, poem, card, cardId }) => {
 };
 
 const Tarot = () => {
-  const poemTwoOfCups = "This card shows an image of a man and a woman that are exchanging their cups in a ceremony The ceremony you will be taking apart of is at Dunks during the prime time of 8. If you have the time, the pre game is at 7. ";
+  const poemTwoOfCups = "This card shows an image of a man and a woman that are exchanging their cups in a ceremony. The ceremony you will be taking a part of is at Dunks during the prime time of 8. If you have the time, the pre game is at 7. ";
   const poemTheLovers = "In its purest form, The Lovers card represents conscious connections and meaningful relationships. The arrival of this card in a Tarot reading shows that you have a beautiful, soul-honoring connection with a loved one who is inviting you to Chi Gam formal. It also serves as a reminder that love is the most powerful force in the Universe and can conquer all."
   const poemTenOfCups = "The Ten of Cups embodies happiness, joy, and emotional contentment, particularly in your relationships and family. You have created an abundance of love and happiness in your life, and you now share this love with others, expanding your heart even more. This card often appears when you are surrounded by your loved ones with whom you share a powerful and deep connection.";
   return (
