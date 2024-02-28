@@ -86,10 +86,12 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   .cardCard {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -153,6 +155,7 @@
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
-  color: black
-    /* Replace "Gothic Font" with the actual name of your Gothic font */
+  color: black;
+  width: 80%;
+  /* Replace "Gothic Font" with the actual name of your Gothic font */
 }
