@@ -1,0 +1,158 @@
+.tarotContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  overflow: hidden;
+  background-color: pink;
+
+  .tarotCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+
+  }
+}
+
+.tarotCard {
+  transition: transform 0.6s, opacity 0.3s ease-in-out;
+  cursor: pointer;
+
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 300px;
+}
+
+.front {
+  width: 250px;
+  backface-visibility: hidden;
+  transition: opacity 0.3s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.card1 {
+  height: 300px;
+  backface-visibility: hidden;
+  transition: opacity 0.3s ease-in-out, transform 0.6s ease-in-out;
+  transform: rotate(-2deg);
+
+  &:hover {
+    height: 320px;
+  }
+}
+
+.card2 {
+  height: 300px;
+  backface-visibility: hidden;
+  transition: opacity 0.3s ease-in-out, transform 0.6s ease-in-out;
+
+  &:hover {
+    height: 320px;
+  }
+}
+
+.card3 {
+  height: 300px;
+  backface-visibility: hidden;
+  transition: opacity 0.3s ease-in-out, transform 0.6s ease-in-out;
+  transform: rotate(2deg);
+
+  &:hover {
+    height: 320px;
+  }
+}
+
+.resultsModal {
+  z-index: 11;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  .cardCard {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.poem {
+  white-space: pre-line;
+  /* Preserves line breaks in the poem text */
+}
+
+.star1 {
+  position: absolute;
+  top: 56px;
+  left: 142px;
+  height: 120px;
+  transform: rotate(35deg);
+}
+
+.star2 {
+  position: absolute;
+  bottom: 30px;
+  right: 90px;
+  height: 120px;
+  transform: rotate(57deg);
+}
+
+.star3 {
+  position: absolute;
+  bottom: 120px;
+  left: 130px;
+  height: 120px;
+  transform: rotate(57deg);
+}
+
+.star4 {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  height: 120px;
+  transform: rotate(35deg);
+
+}
+
+.tarotContainer h1 {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  /* Replace "Gothic Font" with the actual name of your Gothic font */
+}
+
+.tarotContainer h2 {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  /* Replace "Gothic Font" with the actual name of your Gothic font */
+}
+
+.tarotContainer p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: black
+    /* Replace "Gothic Font" with the actual name of your Gothic font */
+}
